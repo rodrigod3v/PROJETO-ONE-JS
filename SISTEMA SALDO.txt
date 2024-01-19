@@ -1,0 +1,16 @@
+alert("### SISTEMA DE CONTROLE FINANCEIRO ###");
+
+let nome = prompt("Informe seu nome : ");
+let banco = prompt("Informe seu banco : ");
+let saldo = parseFloat(prompt(`Informe o seu saldo no ${banco}?`));
+const mensagemDeErro = "Preencha os campos corretamente!";
+
+if (isNaN(saldo)) {
+    alert(mensagemDeErro);
+} else {
+    if (saldo >= 1) {
+        alert(`${nome}, seu saldo no ${banco} está positivo totalizando ${saldo} REAIS.`);
+    } else if (saldo < 0) {
+        alert(`${nome}, seu saldo no ${banco} está negativo em um total de : ${saldo} REAIS.`);
+    }
+}

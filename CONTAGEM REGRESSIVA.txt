@@ -1,0 +1,6 @@
+let contagem = prompt('Digite um número para iniciar a contagem regressiva: ');
+
+while (contagem >= 0) {
+    console.log(`Contagem regressiva: ${contagem}`);
+    contagem--;
+} 

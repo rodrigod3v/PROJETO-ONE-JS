@@ -1,0 +1,11 @@
+alert("Olá, seja bem vindo!");
+
+let = nome = prompt("Qual é o seu nome?");
+let = dia = prompt("Qual o dia da semana?");
+
+let sabado, domingo = ("bom final de semana!");
+
+if(dia == 'Sabado' || dia == 'Domingo' )
+     { alert("Tenha um otimo fim de semana! "); 
+}else{ 
+    alert("Tenha uma otima semana amigo!! "); }

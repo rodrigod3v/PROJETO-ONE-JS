@@ -1,0 +1,10 @@
+alert("Oi ^-^");
+
+let nome = prompt("Qual é o seu nome?");
+const mensagemDeErro = "Preencha os campos corretamente!";
+
+if (nome === "") {
+    alert(mensagemDeErro);
+} else {
+    alert(`${nome} seja bem-vindo!`);
+}

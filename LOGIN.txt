@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////
+
+//let senhaDoSistema = 777;
+//let senha = prompt("Digite a senha do sistema:");
+
+//if (senha == senhaDoSistema){
+//    alert("Acesso ao sistema garantido");
+//} else {
+//   alert("Você não acertou a senha, tente novamente");
+//}
+
+///////////////////////////////////////////////////////////

@@ -1,0 +1,7 @@
+let numeroLimite = prompt('Digite um número para iniciar a contagem progressiva: ');
+let contador = 0;
+
+while (contador <= numeroLimite) {
+    console.log(`Contagem progressiva: ${contador}`);
+    contador++;
+} 

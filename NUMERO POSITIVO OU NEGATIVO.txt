@@ -1,0 +1,17 @@
+alert("Olá, seja bem-vindo!");
+
+let nome = prompt("Informe Seu Nome: ");
+let pontos = prompt("Quantos pontos você fez no jogo?");
+const mensagemDeErro = "Preencha o campo corretamente!";
+
+if (pontos === "") {
+    alert(mensagemDeErro);
+} else {
+    pontos = parseInt(pontos);
+
+    if (pontos >= 100) {
+        alert("Parabéns, você venceu!");
+    } else {
+        alert("Infelizmente você perdeu, tente novamente.");
+    }
+}

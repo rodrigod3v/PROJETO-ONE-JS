@@ -1,0 +1,21 @@
+alert("Boas vindas ao nosso site!");
+
+let nome = "Lua";
+let idade = 25;
+let numeroDeVendas = 50;
+let saldoDisponivel = 1000;
+
+let Nome = prompt("Qual é o seu nome?");
+let Idade = prompt("Qual é sua idade?");
+
+let mensagemDeErro = "Preencha Todos os Campos";
+if (Idade === "") {   
+    alert(mensagemDeErro);    
+}  
+
+if (parseInt(Idade) >= 18) {
+    alert("Habilitação Aprovada!");
+} else {
+    alert("Habilitação Negada.");
+}
+
